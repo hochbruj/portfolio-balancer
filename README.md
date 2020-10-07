@@ -1,4 +1,4 @@
-#Portfolio Balancer
+# Portfolio Balancer
 
 Smart contracts for the defi asset manager app.
 
@@ -12,14 +12,17 @@ Install node packages
 ## Deploy smart contract to local blockchain
 
 If you don't have gannache run
+
 `npm install -g ganache-cli`
 
 Run a fork of the mainnet on your local blockchain
+
 `ganache-cli --fork https://mainnet.infura.io/v3/<YOUR_INFURA_PROJECT_ID> --i 999`
 
-If you don't have an Ifura API key, here's how to get one: https://medium.com/jelly-market/how-to-get-infura-api-key-e7d552dd396f#:~:text=In%20order%20to%20get%20the,confirm%20in%20your%20mail%20box
+If you don't have an Ifura API key, here's how to get one: https://medium.com/jelly-market/how-to-get-infura-api-key-e7d552dd396f
 
 Deploy PortfolioBalancer smart contract
+
 `npx oz deploy`
 
 Copy paste the smart contract address into defi asset manaager frontend app
