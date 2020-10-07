@@ -7,6 +7,7 @@ Smart contracts for the defi asset manager app.
 The smart contracts are created with the OpenZeppelin framework. For more information go to https://docs.openzeppelin.com/openzeppelin
 
 Install node packages
+
 `npm install`
 
 ## Deploy smart contract to local blockchain
